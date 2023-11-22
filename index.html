@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Handlee&family=PT+Sans+Narrow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" class="css" />
     <title>Weather App Project</title>
   </head>
   <body>
@@ -11,8 +18,8 @@
         <form class="search-form" id="search-form">
           <input
             type="search"
-            class="search-input-form"
-            id="search-input-form"
+            class="search-form-input"
+            id="search-form-input"
             placeholder="Enter a city..."
             required
           />
@@ -20,10 +27,13 @@
         </form>
       </header>
       <main>
-        <div class="weather-app-location" id="weather-app-location">
-          <h1 class="weather-app-city" id="weather-app-city">Brisbane</h1>
-          <p class="time" id="time">Wed, 22 Nov 2023 ∘ 16:35</p>
-          <p class="weather-condition">Cloudy</p>
+        <h1 class="weather-app-city" id="weather-app-city">Brisbane</h1>
+        <div>
+          <p class="weather-app-current">
+            <span class="time" id="time">Wed, 22 Nov 2023 ∘ 16:35</span>
+            <br />
+            <span class="weather-condition">Cloudy </span>
+          </p>
         </div>
         <div class="weather-app-data" id="weather-app-data">
           <div class="weather-app-temperature-container">
@@ -47,9 +57,21 @@
       </main>
     </div>
     <footer>
-      Coded by Naomi De Wys🌷
+      Coded by
+      <a href="https://www.github.com/naomidewys" target="_blank"
+        >Naomi De Wys</a
+      >🌷
       <br />
-      Open-sourced on GitHub and hosted on Netlify
+      Open-sourced on
+      <a
+        href="https://www.github.com/naomidewys/weather-app-project"
+        target="_blank"
+        >GitHub</a
+      >
+      and hosted on
+      <a href="https://weather-app-project-ndw.netlify.app" target="_blank"
+        >Netlify</a
+      >
     </footer>
   </body>
 </html>
