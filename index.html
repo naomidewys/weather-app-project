@@ -5,5 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App Project</title>
   </head>
-  <body></body>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            class="search-input-form"
+            id="search-input-form"
+            placeholder="Enter a city..."
+            required
+          />
+          <input type="submit" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-location" id="weather-app-location">
+          <h1 class="weather-app-city" id="weather-app-city">Brisbane</h1>
+          <p class="time" id="time">Wed, 22 Nov 2023 ∘ 16:35</p>
+          <p class="weather-condition">Cloudy</p>
+        </div>
+        <div class="weather-app-data" id="weather-app-data">
+          <div class="weather-app-temperature-container">
+            <div class="icon" id="icon">⛅</div>
+            <div class="weather-app-temperature" id="weather-app-temperature">
+              25
+            </div>
+            <div class="weather-app-unit"><strong>°C</strong></div>
+          </div>
+          <div>
+            <p class="weather-app-details" id="weather-app-details">
+              Low: <span class="today-minimum" id="today-minimum">10</span> |
+              <span class="today-maximum" id="today-maximum">30</span>
+              <br />
+              Humidity: <strong id="humidity">20%</strong>
+              <br />
+              Wind: <strong id="wind-speed">3km/h</strong>
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      Coded by Naomi De Wys🌷
+      <br />
+      Open-sourced on GitHub and hosted on Netlify
+    </footer>
+  </body>
 </html>
