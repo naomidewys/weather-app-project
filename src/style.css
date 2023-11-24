@@ -89,14 +89,17 @@ a:hover {
 
 .today-temperature {
   font-size: 80px;
+  font-weight: 500;
 }
 
-.icon {
-  font-size: 80px;
+.weather-app-icon {
+  font-size: 65px;
+  margin-top: 3px;
+  margin-right: 2px;
 }
 
 .weather-app-unit {
-  font-size: 18px;
+  font-size: 22px;
   margin-top: 20px;
   font-weight: 800;
 }
