@@ -75,6 +75,10 @@ a:hover {
   font-family: "PT Sans Narrow", san s-serif;
 }
 
+.weather-condition {
+  text-transform: capitalize;
+}
+
 .weather-app-temperature-container {
   margin-left: 10px;
   display: flex;
@@ -93,9 +97,7 @@ a:hover {
 }
 
 .weather-app-icon {
-  font-size: 65px;
-  margin-top: 3px;
-  margin-right: 2px;
+  font-size: 100px;
 }
 
 .weather-app-unit {
