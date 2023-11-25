@@ -97,11 +97,32 @@ a:hover {
 }
 
 .weather-app-icon {
-  font-size: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-app-unit {
   font-size: 22px;
   margin-top: 20px;
   font-weight: 800;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  font-family: "Handlee", cursive;
+  font-weight: 500;
+}
+
+.weather-forecast-temperature {
+  font-size: 16px;
+  font-family: "PT Sans Narrow", san s-serif;
+}
+
+.weather-forecast-maximum {
+  font-weight: 600;
 }
