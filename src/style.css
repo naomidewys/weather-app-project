@@ -13,16 +13,21 @@ h1 {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
-  font-family: "Handlee", cursive;
+  font-family: "PT Sans Narrow", san s-serif;
 }
 
 a {
-  font-weight: 600;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
+  color: rgb(174, 103, 99);
+}
+
+.footer-link {
   color: rgb(92, 149, 148);
 }
 
@@ -68,10 +73,14 @@ a:hover {
   font-weight: 500;
 }
 
+.temp-link .active {
+  font-weight: 600;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 30px;
   font-family: "PT Sans Narrow", san s-serif;
 }
 
@@ -94,6 +103,11 @@ a:hover {
 .today-temperature {
   font-size: 80px;
   font-weight: 500;
+  margin-left: -10px;
+}
+
+.today-maximum {
+  font-weight: 600;
 }
 
 .weather-app-icon {
@@ -104,13 +118,39 @@ a:hover {
 .weather-app-unit {
   font-size: 22px;
   margin-top: 20px;
-  font-weight: 800;
+}
+
+.weather-app-unit .active {
+  font-weight: 700;
 }
 
 .weather-forecast {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 250, 250, 0.3);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.forecast-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.weather-forecast-date {
+  font-family: "Handlee", cursive;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.weather-forecast-temperature {
+  font-family: "PT Sans Narrow", sans s-serif;
+  font-size: 16px;
+}
+
+.weather-forecast-maximum {
+  font-weight: 600;
 }

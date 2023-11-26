@@ -40,15 +40,17 @@
           <div class="weather-app-temperature-container">
             <div class="weather-app-icon" id="weather-app-icon"></div>
             <div class="today-temperature" id="weather-app-temperature"></div>
-            <div class="weather-app-unit">°C</div>
+            <div class="weather-app-unit" id="weather-app-unit">
+              <a href="#" id="celsius-link">°C</a>
+              |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </div>
           </div>
           <div>
             <p class="weather-app-details" id="weather-app-details">
               Low/High:
-              <span class="today-minimum" id="today-minimum">10°</span> /
-              <span class="today-maximum" id="today-maximum"
-                ><strong>30°</strong></span
-              >
+              <span class="today-minimum" id="today-minimum"></span> /
+              <span class="today-maximum" id="today-maximum"></span>
               <br />
               Humidity: <strong id="humidity"></strong>
               <br />
@@ -61,18 +63,25 @@
     </div>
     <footer>
       Coded by
-      <a href="https://www.github.com/naomidewys" target="_blank"
+      <a
+        href="https://www.github.com/naomidewys"
+        class="footer-link"
+        target="_blank"
         >Naomi De Wys</a
       >🌷
       <br />
       Open-sourced on
       <a
         href="https://www.github.com/naomidewys/weather-app-project"
+        class="footer-link"
         target="_blank"
         >GitHub</a
       >
       and hosted on
-      <a href="https://weather-app-project-ndw.netlify.app" target="_blank"
+      <a
+        href="https://weather-app-project-ndw.netlify.app"
+        class="footer-link"
+        target="_blank"
         >Netlify</a
       >
     </footer>
