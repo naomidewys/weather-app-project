@@ -34,6 +34,20 @@
 </ul>
 </p>
 <h2>
+  Work in Progress
+</h2>
+<p>
+  These are the areas I'm still working on.
+  <ul>
+    <li>
+      Changing between Celsius and Fahrenheit for the current day's low/high temperature range.
+    </li>
+    <li>
+      Changing between Celsius and Fahrenheit for the five-day forecast.
+    </li>
+  </ul>
+</p>
+<h2>
   Authors
 </h2>
     <a href="https://www.linkedin.com/in/naomidewys" target="_blank">Naomi De Wys</a>
