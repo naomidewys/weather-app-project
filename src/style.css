@@ -65,6 +65,7 @@ a:hover {
   padding: 5px 10px;
   font-family: "Handlee", cursive;
   font-weight: 500;
+  color: black;
 }
 
 .weather-app-current {
