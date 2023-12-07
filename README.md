@@ -2,7 +2,7 @@
   SheCodes Plus Final Project: Weather App
 </h1>
 <p>
-  This weather app was created for the final project of the <a href="https://www.shecodes.io/workshops" target="_blank">SheCodes Plus workshop</a>.
+  This weather app was created for the final project of the <a href="https://www.shecodes.io/workshops" target="_blank">SheCodes Plus workshop</a> and is hosted on <a href="https://weather-app-project-ndw.netlify.app/" target="_blank">Netlify</a>.
 </p>
 <h2>
   Description
@@ -37,7 +37,7 @@
   Work in Progress
 </h2>
 <p>
-  These are the areas I'm still working on.
+  These are the areas I'm still working on:
   <ul>
     <li>
       Changing between Celsius and Fahrenheit for the current day's low/high temperature range.
