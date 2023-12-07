@@ -45,6 +45,9 @@
     <li>
       Changing between Celsius and Fahrenheit for the five-day forecast.
     </li>
+    <li>
+      Making the weather app responsive to different devices.
+    </li>
   </ul>
 </p>
 <h2>
