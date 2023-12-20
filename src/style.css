@@ -4,14 +4,14 @@ body {
 }
 
 html {
-  display: table;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 body {
-  display: table-cell;
+  display: block;
   vertical-align: top;
-  margin: auto;
+  margin: 0 auto;
   max-width: 450px;
 }
 
@@ -27,7 +27,6 @@ footer {
   font-size: 14px;
   text-align: center;
   font-family: "PT Sans Narrow", san s-serif;
-  margin-top: 20px;
 }
 
 a {
