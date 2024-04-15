@@ -1,7 +1,7 @@
 <h1>README - Vanilla Weather App</h1>
 <h3>Intro</h3>
 <p>
-  This is a weather app project using Vanilla JS. It was the final project for <a href="https://shecodes.io" target="_blank">SheCodes Plus</a>, a five-week course teaching HTML/CSS, JavaScript, and how to fetch live data from API. The requirements for this project was to create a weather forecast using live data.
+  This is a weather app project using Vanilla JS. It was the final project for <a href="https://shecodes.io" target="_blank">SheCodes Plus</a>, an eight-week course teaching HTML/CSS, JavaScript, and how to fetch live data from API. The requirements for this project was to create a weather forecast using live data.
 </p>
 <h3>Tech Stack</h3>
 <ul>
